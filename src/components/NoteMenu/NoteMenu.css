@@ -1,0 +1,41 @@
+.note__menu-list {
+    margin: 0;
+    position: absolute;
+    right: -1px;
+    top: 78%;
+    z-index: 9999;
+    background: #ffffff;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    padding: 0;
+    opacity: 0;
+    display: none;
+    transition: all 0.3s ease-out;
+}
+
+.note__menu {
+    background: url('../../assets/menu.svg') center no-repeat;
+    background-size: 18px 18px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.note__menu-item {
+    padding: 12px 40px;
+    list-style: none;
+    display: block;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+    font-size: 0.8em;
+    color: rgba(0,0,0,.87);
+}
+
+.note__menu-item:hover {
+    background: #cccccc;
+}

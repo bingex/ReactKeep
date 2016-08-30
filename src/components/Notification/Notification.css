@@ -1,0 +1,24 @@
+.notification {
+    box-shadow: 3px 2px 3px rgba(0,0,0,0.30);
+    padding: 15px;
+    position: fixed;
+    left: 20px;
+    bottom: 70px;
+    background: #ffffff;
+    border-radius: 2px;
+    color: #5c5c5c; 
+    transition: all 1s ease;
+    opacity: 0;
+}
+
+.notification__open {
+    opacity: 1;
+   /* animation-name: anim;
+    animation-duration: 10s;
+    animation-iteration-count: 1;*/
+}
+
+@keyframes anim {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}

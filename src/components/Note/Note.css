@@ -1,0 +1,101 @@
+.note {
+    width: 240px;
+    background: #ffffff;
+    height: auto;
+    margin: 10px;
+    padding: 5px 20px 30px 20px;
+    position: relative;
+    border-radius: 2px;
+    transition: all 0.1s ease;
+    box-shadow: 1px 2px 1px rgba(0,0,0,0.1);
+}
+
+.note-opened {
+    position: absolute;
+    width: 400px;
+    z-index: 9999;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.30)
+}
+
+.note-checked {
+    outline: 5px solid #6f6f6f !important;
+}
+
+.note-btn-checked {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.note__title, .note__text {
+    user-select: none;
+    cursor: default;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    border: none;
+    background: none;
+}
+
+.note__title:focus, .note__text:focus {
+    outline: none;
+}
+
+.note__title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+    padding: 10px 10px;
+    width: calc(100% - 20px);
+}
+
+.note__text {
+    padding: 10px 10px;
+    width: calc(100% - 20px);
+}
+
+.note__check-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    background: #ffffff url('../../assets/check.svg') center no-repeat;
+    background-size: 14px 14px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.1s ease-in;
+}
+
+.note__check-btn:hover {
+    background-size: 18px 18px;
+}
+
+.note:hover .note__check-btn {
+    opacity: 1;
+}
+
+.note:hover .note__menu {
+    opacity: 1;
+}
+
+.note:hover .note__color-wheel {
+    opacity: 1;
+}
+
+.note:hover .note__label {
+    opacity: 1;
+}
+
+.note:hover {
+    box-shadow: 3px 2px 3px rgba(0,0,0,0.30);
+}
+
+.open {
+    display: block;
+    opacity: 1;
+}
+
+
+

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "name": "default",
+        "color": "rgb(204, 255, 144)"
+    },
+    {
+        "id": 1,
+        "name": "important",
+        "color": "rgb(128, 216, 255)"
+    },
+    {
+        "id": 2,
+        "name": "not important",
+        "color": "rgb(255, 255, 141)"
+    },
+    {
+        "id": 3,
+        "name": "work",
+        "color": "rgb(255, 138, 128)"
+    }
+]

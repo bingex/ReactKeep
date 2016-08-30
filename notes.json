@@ -1,0 +1,72 @@
+[
+    {
+        "id": 0,
+        "title": "Clean",
+        "text": "Clean up work table",
+        "bgColor": "rgb(255, 255, 255)",
+        "label": "default"
+    },
+    {
+        "id": 1,
+        "title": "Learn React.js",
+        "text": "Create demo react.js + redux project",
+        "bgColor": "rgb(255, 255, 255)",
+        "label": "default"
+    },
+    {
+        "id": 2,
+        "title": "Fix probemas",
+        "text": "Fix payment checkboxes",
+        "bgColor": "rgb(255, 255, 255)",
+        "label": "work"
+    },
+    {
+        "id": 3,
+        "title": "Book",
+        "text": "Read book",
+        "bgColor": "rgb(255, 255, 255)",
+        "label": "default"
+    },
+    {
+        "id": 4,
+        "title": "Transfer",
+        "text": "Transfer website from c#",
+        "bgColor": "rgb(255, 255, 255)",
+        "label": "work"
+    },
+    {
+        "id": 5,
+        "title": "Internet",
+        "text": "Pay for internet",
+        "bgColor": "rgb(255, 255, 255)",
+        "label": "default"
+    },
+    {
+        "id": 6,
+        "title": "Buy gift",
+        "text": "Buy gift for girlfriend",
+        "bgColor": "rgb(255, 255, 255)",
+        "label": "important"
+    },
+    {
+        "id": 7,
+        "title": "Kiev travel",
+        "text": "Prepare for travel to Kiev",
+        "bgColor": "rgb(255, 255, 255)",
+        "label": "default"
+    },
+    {
+        "id": 8,
+        "title": "Passport",
+        "text": "Don't forgot passport!",
+        "bgColor": "rgb(255, 255, 255)",
+        "label": "important"
+    },
+    {
+        "id": 9,
+        "title": "Phone",
+        "text": "Pay for phone",
+        "bgColor": "rgb(255, 255, 255)",
+        "label": "not important"
+    }
+]

@@ -1,0 +1,44 @@
+.add-note {
+    margin: 30px auto;
+    margin-bottom: 20px;
+    min-width: 280px;
+    width: 35%;
+    border: 1px solid #f4f4f4;
+    box-shadow: 1px 2px 2px #cccccc;
+    background: #ffffff;
+    border-radius: 2px;
+}
+
+.add-note__title, .add-note__text {
+    font-size: 14px;
+    width: calc(100% - 40px);
+    padding: 15px 20px;
+    display: block;
+    border: none;
+}
+
+.add-note__title:focus, .add-note__text:focus, .add-note__submit {
+    outline: none;
+}
+
+.add-note__title {
+    font-weight: bold;
+    display: none;
+}
+
+.add-note__submit {
+    text-align: right;
+    width: 20%;
+    margin-left: 75%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 30px;    
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    display: none;
+}
+
+.open {
+    display: block;
+}
